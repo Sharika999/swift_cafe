@@ -1,0 +1,29 @@
+name: swift_cafe
+description: "A new Flutter project."
+publish_to: 'none' # This prevents accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6 # For iOS style icons
+  # Add any additional dependencies you need for the project here
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0 # Linting package
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib\assets1\cappuccino.jpg
+    - lib\assets1\flat_white.jpg
+    - lib\assets1\latte.jpg
+
+
